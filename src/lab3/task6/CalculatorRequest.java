@@ -70,7 +70,7 @@ public record CalculatorRequest(Object leftOperand, Object rightOperand, String 
         return enumToString((type1 == Type.DOUBLE || type2 == Type.DOUBLE ? Type.DOUBLE : type1));
     }
 
-//    public String toString(){
-//        return leftOperand + " " + operation + " " + rightOperand;
-//    }
+    public String toString(){
+        return leftOperand + " " + operation + " " + rightOperand;
+    }
 }
