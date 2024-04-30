@@ -36,7 +36,7 @@ class MultiMapValue<K, V> extends HashMap<K, List<V>>{
 
     public V getFirst(K key) {
         if(get(key) != null)
-            return get(key).getFirst();
+            return get(key).get(0);
         else
             return null;
     }
