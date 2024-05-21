@@ -1,0 +1,25 @@
+Pentru 10numere 
+PrinThread: 58ms 
+PrinParallelStream: 11ms 
+PrinCompletableFuture: 9ms 
+Neparalel: 3ms 
+
+Pentru 1000numere 
+PrinThread: 74ms 
+PrinParallelStream: 22ms 
+PrinCompletableFuture: 37ms 
+Neparalel: 12ms 
+
+Pentru 10000numere 
+PrinThread: 154ms 
+PrinParallelStream: 93ms 
+PrinCompletableFuture: 149ms 
+Neparalel: 56ms 
+
+Pentru 10000000numere 
+PrinThread: 55167ms 
+PrinParallelStream: 54698ms 
+PrinCompletableFuture: 69116ms 
+Neparalel: 35522ms 
+
+Timpul pentru cele paralele e mai mare deoarece administrarea threadurilor si a paralelismului costa timp.
