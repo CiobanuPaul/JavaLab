@@ -1,0 +1,22 @@
+Task 1
+Se va afisa 1 si 5. Variabila a declarata in B o 'umbreste' pe cea extinsa din A.
+Deci accesarea datei membre a din B va fi accesarea datei membre declareate in extindere.
+'a.a++' va creste valoarea statica a din A deoarece tipul obiectului a e stabilit la compilare(tipul A).
+Cele doua afisari vor afisa valorile statice pentru fiecare clasa in parte.
+
+Task 2
+C
+D 1
+E
+Cand instantiem obiectul de tip E, apelam explicit constructorul parametrizat din D, iar la final afisam "E".
+Constructorul parametrizat cu valoarea 1 din D va apela implicit constructorul din C neparametrizat iar apoi va afisa "D 1".
+Constructorul neparametrizat din C va afisa "C"
+
+
+Task 3
+Se va afisa 2 si 3. In functia bar, se va modifica intai valoarea lui f.a la 1,
+dar in blocul finally se va modifica din nou valoarea lui f.a la 2.
+In functia foo(), se va returna 0, dar nu inainte de a se executa blocul finally, care va suprascrie valoarea de return.
+
+Task 4
+Exact ca la task3
